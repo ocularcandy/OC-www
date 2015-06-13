@@ -1,87 +1,815 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<!--Copyright 2011 by OcularCandyProductions-->
-<!--Created for Ocular Candy Productions-->
-<!--modified 12/17/11-->
-<!--begin header with title information, link to stylesheet, and meta-tag-->
-	<title>Ocular Candy Productions</title>
-	
-	<link rel="stylesheet" type="text/css" media="screen" href="css/screenstyle.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="css/text.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="css/960.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="css/galleria.css" />
-	
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="Amber Hayes" />
-	<meta name="revised" content="12/17/2011" />
-	<meta name="description" content="Ocular Candy Productions specializes in Custom Digital Photography.  Located in Oklahoma City, OK" />
-	<meta name="keywords" content="photography custom ocular candy productions photos photographs oklahoma" />
-	
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ocular Candy Productions - Nerd for Hire">
+    <meta name="author" content="Linewp">
+    <title>Ocular Candy Productions</title>
+
+    <!-- CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+
+    <!-- Icon Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/etlinefont.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
-<!--begin body-->
-<div id="container">
-	<div id="logo"><!--start #logo, contains OcularCandy logo-->
-		<h1>Ocular Candy Productions</h1>
-	</div>
-<!--end #logo-->
-	<div id="navbar">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="about.html">About Us</a></li>
-			<li><a href="people.html">People</a></li>
-			<li><a href="things.html">Places &amp; Things</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</div> 
-	<div id="leftcolumn">
-	<ul>
-		<li><a href="#">Home</a></li>
-		<li><a href="about.html">About Us</a></li>
-		<li><a href="people.html">People</a></li>
-		<li><a href="things.html">Places &amp; Things</a></li>
-		<li><a href="contact.html">Contact</a></li>
-	</ul>
-	</div>
-<!--end #leftcolumn-->
+<body id="page-top" class="index">
 
-	<div id="content"><!--begin right column containing page content-->
-
-		<h3>"Capturing Life through the Lens"</h3><a href="#" onclick="alert('© OcularCandy');"><img class="floatleft"
-		 src="images/JenDigi8.jpg" alt="floatright image" height="330" hspace=""
-		 vspace="10" width="235" /></a>
-		<p>Ocular Candy Productions specializes in custom digital photography. 
-		With over 10 years experience, it is my 
-		personal mission to see that each session is carried out with the 
-		highest quality and professionalism.</p> 
-		<br />
-		<p>Whether its traditional family 
-		photos, graduation, newborns, weddings, or any reason at all, let Ocular Candy
-		capture that special moment. </p>
-		<br />
-		<p>Ocular Candy Productions is located in Del City, Oklahoma
-		just minutes off of 1-40.</p>
+	<!-- Preloader -->
+	<div id="loader">
+	  <div id="loaderInner">	  	
+			<div class="loaderBars">
+				<span class="bar1 bar"></span>
+				<span class="bar2 bar"></span>
+				<span class="bar3 bar"></span>
+			</div>	
+	  </div>
 	</div>
-<!--end #content right cloumn-->
+	<!-- preloader End -->
 
-	<div id="footer"><!--copyright and contact information-->
-		Copyright&nbsp;©&nbsp;2012&nbsp;&nbsp;Ocular Candy Productions&nbsp;<br />
-		Del City, Oklahoma&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: 405-618-2771<br />
-		<div id="disclaim"><br />
-			Date last revised: May 31, 2012&nbsp;&nbsp;Please contact webmaster 
-			directly with questions/comments concerning the website. 
-			<a href="mailto:amber@ocularcandy.biz">amber@ocularcandy.biz</a> 
-		</div><!--end #disclaim--> 
-	</div><!--end #footer--> 
-</div><!--end #container-->
-</body><!--end body-->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Ocular Candy</a>
+            </div>
+
+            <!-- navbar-collapse -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li><a class="page-scroll" href="#about">About</a></li>
+                    <li><a class="page-scroll" href="#skills">Skills</a></li>
+                    <!-- <li><a class="page&#45;scroll" href="#services">Services</a></li> -->
+                    <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+                    <li><a class="page-scroll" href="#resume">Resume</a></li>
+                    <li><a class="page-scroll" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- navbar-collapse End -->
+
+        </div>
+    </nav>
+    <!-- Navigation End -->
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text wow fadeInDown animated">
+                <div class="intro-lead-in">Ocular Candy Productions</div>
+                <div class="intro-heading">Amber hayes</div>
+                <a href="#about" class="page-scroll btn btn-x2">More About Me</a>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+				<div class="col-lg-12 text-center wow fadeInDown animated">
+                    <h2 class="section-heading">About me</h2>
+                    <h3 class="section-subheading text-muted">I love creating cool things.</h3>
+                </div>
+                <div class="col-lg-4 text-center col-md-4 col-sm-4 col-xs-12 pull-right media wow zoomIn animated">
+                    <img alt="" class="img-circle img-me" src="img/me.jpg">
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left media">
+                    <h3>Amber Hayes</h3>
+                    <h4>Software Developer &amp; Web Designer</h4>
+                    <p class="text-muted">I'm a Nerd.  I love developing websites and mobile apps.
+                    I also enjoy capturing life through the camera lens.  I believe with hard work
+                    and positive thinking, amazing things can happen.</p>
+                    <p class="text-muted">I build websites and mobile apps.  I design logos and
+                    flyers.  I custom frame artwork and photography. I create digital video montages
+                    and other marketing products.  I enjoy turning ideas into reality using my
+                    digital prowess. I believe in delivering a quality product at a reasonable
+                    price.</p>
+                    <!-- <p><a class="btn btn&#45;primary btn&#45;lg wow bounce animated" role="button" href="#">Download Printable Resume</a></p> -->
+                </div>
+			</div>
+
+        </div>
+    </section>
+    <!-- About Section End -->
+    
+    <!-- Status Section -->
+    <section id="status" class="counter">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-3 col-xs-6 wow flipInY animated">
+                    <i class="icon-alarmclock fa-3x"></i>
+                    <h3 class="total-number-1">335</h3>
+                    <p>Hours of Works</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 wow flipInY animated">
+                    <i class="icon-puzzle fa-3x"></i>
+                    <h3 class="total-number-2">5</h3>
+                    <p>Projects Finished</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 wow flipInY animated">
+                    <i class="icon-happy fa-3x"></i>
+                    <h3 class="total-number-3">3</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 wow flipInY animated">
+                    <i class="icon-trophy fa-3x"></i>
+                    <h3 class="total-number-4">4</h3>
+                    <p>Awards</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Status Section End -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeInDown animated">
+                    <h2 class="section-heading">Skills</h2>
+                    <h3 class="section-subheading text-muted">I fell in love with Ruby - but she's not the only language I speak</br>New Languages are Adventures for me.</h3>
+                </div>
+            </div>
+            <div class="row">
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span data-percent="90" class="chart skilBg"> <span class="percent">90</span> <canvas height="152" width="152"></canvas></span>
+            <h4>RUBY</h4>
+            <p>Programming language with an elegant syntax.</p>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span data-percent="75" class="chart skilBg"> <span class="percent">75</span> <canvas height="152" width="152"></canvas></span>
+            <h4>Ruby on Rails</h4>
+            <p>Web Application Framework</p>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span data-percent="70" class="chart skilBg"> <span class="percent">60</span> <canvas height="152" width="152"></canvas></span>
+            <h4>RubyMotion</h4>
+            <p>iOS apps with the beauty that is Ruby.</p>
+          </div>
+        </div>
+        </div>
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span data-percent="75" class="chart skilBg"> <span class="percent">55</span> <canvas height="152" width="152"></canvas></span>
+            <h4>PHP / MySQL</h4>
+            <p>Not everyone likes Ruby.</p>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span data-percent="60" class="chart skilBg"> <span class="percent">65</span> <canvas height="152" width="152"></canvas></span>
+            <h4>Illustrator</h4>
+            <p>Logo/Logotype, Web Graphics</p>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span data-percent="65" class="chart skilBg"> <span class="percent">70</span> <canvas height="152" width="152"></canvas></span>
+            <h4>Photoshop</h4>
+            <p>Photograph Enhancment, Web Graphics</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Skills Section End -->
+    
+    <!-- <!&#45;&#45; Services Section &#45;&#45;> -->
+    <!-- <section id="services"> -->
+    <!--     <div class="container"> -->
+    <!--         <div class="row"> -->
+    <!--             <div class="col&#45;lg&#45;12 text&#45;center wow fadeInDown animated"> -->
+    <!--                 <h2 class="section&#45;heading">Services</h2> -->
+    <!--                 <h3 class="section&#45;subheading text&#45;muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+    <!--             </div> -->
+    <!--         </div> -->
+    <!--         <div class="row text&#45;center"> -->
+    <!--             <div class="col&#45;md&#45;3 wow fadeInDown animated"> -->
+    <!--                 <span class="fa&#45;stack fa&#45;4x"> -->
+    <!--                     <i class="icon&#45;lightbulb text&#45;primary"></i> -->
+    <!--                 </span> -->
+    <!--                 <h4 class="service&#45;heading">Web Design</h4> -->
+    <!--                 <p class="text&#45;muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p> -->
+    <!--             </div> -->
+    <!--             <div class="col&#45;md&#45;3 wow fadeInUp animated"> -->
+    <!--                 <span class="fa&#45;stack fa&#45;4x"> -->
+    <!--                     <i class="icon&#45;camera text&#45;primary"></i> -->
+    <!--                 </span> -->
+    <!--                 <h4 class="service&#45;heading">User Experience</h4> -->
+    <!--                 <p class="text&#45;muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p> -->
+    <!--             </div> -->
+    <!--             <div class="col&#45;md&#45;3 wow fadeInDown animated"> -->
+    <!--                 <span class="fa&#45;stack fa&#45;4x"> -->
+    <!--                     <i class="icon&#45;tools text&#45;primary"></i> -->
+    <!--                 </span> -->
+    <!--                 <h4 class="service&#45;heading">Responsive Design</h4> -->
+    <!--                 <p class="text&#45;muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p> -->
+    <!--             </div> -->
+    <!--             <div class="col&#45;md&#45;3 wow fadeInUp animated"> -->
+    <!--                 <span class="fa&#45;stack fa&#45;4x"> -->
+    <!--                     <i class="icon&#45;linegraph text&#45;primary"></i> -->
+    <!--                 </span> -->
+    <!--                 <h4 class="service&#45;heading">Project Management</h4> -->
+    <!--                 <p class="text&#45;muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p> -->
+    <!--             </div> -->
+    <!--         </div> -->
+    <!--     </div> -->
+    <!-- </section> -->
+    <!-- <!&#45;&#45; Services Section End &#45;&#45;> -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeInDown animated">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">These are a few of my favorite things.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/mdBBP.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>BlackButterfly.biz</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/mdPPT.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>PatriotPistolTraining.com</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/mdSfly.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Ocular Candy</h4>
+                        <p class="text-muted">Photography</p>
+                    </div>
+                </div>
+                <!-- <div class="col&#45;md&#45;4 col&#45;sm&#45;6 portfolio&#45;item"> -->
+                <!--     <a href="#portfolioModal4" class="portfolio&#45;link" data&#45;toggle="modal"> -->
+                <!--         <div class="portfolio&#45;hover"> -->
+                <!--             <div class="portfolio&#45;hover&#45;content"> -->
+                <!--                 <i class="fa fa&#45;search&#45;plus fa&#45;3x"></i> -->
+                <!--             </div> -->
+                <!--         </div> -->
+                <!--         <img src="http://placehold.it/400x300.jpg" class="img&#45;responsive" alt=""> -->
+                <!--     </a> -->
+                <!--     <div class="portfolio&#45;caption"> -->
+                <!--         <h4>Project Name</h4> -->
+                <!--         <p class="text&#45;muted">Website Design</p> -->
+                <!--     </div> -->
+                <!-- </div> -->
+                <!-- <div class="col&#45;md&#45;4 col&#45;sm&#45;6 portfolio&#45;item"> -->
+                <!--     <a href="#portfolioModal5" class="portfolio&#45;link" data&#45;toggle="modal"> -->
+                <!--         <div class="portfolio&#45;hover"> -->
+                <!--             <div class="portfolio&#45;hover&#45;content"> -->
+                <!--                 <i class="fa fa&#45;search&#45;plus fa&#45;3x"></i> -->
+                <!--             </div> -->
+                <!--         </div> -->
+                <!--         <img src="http://placehold.it/400x300.jpg" class="img&#45;responsive" alt=""> -->
+                <!--     </a> -->
+                <!--     <div class="portfolio&#45;caption"> -->
+                <!--         <h4>Project Name</h4> -->
+                <!--         <p class="text&#45;muted">Graphic Design</p> -->
+                <!--     </div> -->
+                <!-- </div> -->
+                <!-- <div class="col&#45;md&#45;4 col&#45;sm&#45;6 portfolio&#45;item"> -->
+                <!--     <a href="#portfolioModal6" class="portfolio&#45;link" data&#45;toggle="modal"> -->
+                <!--         <div class="portfolio&#45;hover"> -->
+                <!--             <div class="portfolio&#45;hover&#45;content"> -->
+                <!--                 <i class="fa fa&#45;search&#45;plus fa&#45;3x"></i> -->
+                <!--             </div> -->
+                <!--         </div> -->
+                <!--         <img src="http://placehold.it/400x300.jpg" class="img&#45;responsive" alt=""> -->
+                <!--     </a> -->
+                <!--     <div class="portfolio&#45;caption"> -->
+                <!--         <h4>Project Name</h4> -->
+                <!--         <p class="text&#45;muted">Photography</p> -->
+                <!--     </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Hire Me Section -->
+    <section id="here-me">
+        <div class="container">
+            <div class="row text-center">
+  					<div class="col-md-9 wow zoomIn animated">
+					    <h1>"I Am Available for Freelance Work"</h1>
+  					</div>
+  					<div class="col-md-3">
+					    <a class="page-scroll btn btn-x3 wow bounceIn animated" href="#contact">Hire Me</a>
+  					</div>
+			</div>
+        </div>
+    </section>
+    <!-- Here Me Section End -->
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeInDown animated">
+                    <h2 class="section-heading">Resume</h2>
+                    <h3 class="section-subheading text-muted">The only source of knowledge is experience. - Albert Einstein</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+
+                    <!-- exprience -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image wow zoomIn animated">
+                                <span class="ico">
+                                    <i class="fa fa-briefcase"></i>
+                                </span>
+                            </div>
+                            <div class="timeline-panel wow fadeInRight animated">
+                                <div class="timeline-heading">
+                                    <h2 class="subheading">Work Experience</h2>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">I've been developing software applications in Ruby for over two years. I'm known for producing applications that are easy to use, test, maintain, scale and troubleshoot. I'm passionate about details and meet deadlines with ease. I love to learn and adapt quickly to change.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image wow zoomIn animated">
+                                <h4>Mar 2005
+                                    <br>-
+                                    <br>Present
+                                </h4>
+                            </div>
+                            <div class="timeline-panel wow fadeInLeft animated">
+                                <div class="timeline-heading">
+                                    <h4>Ocular Candy Productions</h4>
+                                    <h4 class="subheading">Software Development, Photography</h4>
+                                </div>
+                                <div class="timeline-body">
+                                  <p class="text-muted">Livin' the American Dream - developing software solutions and capturing life through the camera lens.</br>Recent Projects include:</br>
+                                    <a href="http://www.blackbutterfly.biz">BlackButterfly.biz</a></p>
+                                    <a href="http://www.patriotpistoltraining.com">PatriotPistolTraining.com</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image wow zoomIn animated">
+                                <h4>July 2012
+                                    <br>-
+                                    <br>May 2015
+                                </h4>
+                            </div>
+                            <div class="timeline-panel wow fadeInRight animated">
+                                <div class="timeline-heading">
+                                    <h4>Adfitech, Inc</h4>
+                                    <h4 class="subheading">Workflow Developer</h4>
+                                </div>
+                                <div class="timeline-body">
+                                  <p class="text-muted"> Integral part of the CLAWS Workflow Team - using Ruby, Gtk, and PSQL to create customizable applications that help increase efficiency and accuracy for underwriters performing quality control on loans and mortgages. </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- <li> -->
+                        <!--     <div class="timeline&#45;image wow zoomIn animated"> -->
+                        <!--         <h4>Aug 2008 -->
+                        <!--             <br>&#45; -->
+                        <!--             <br>Apr 2010 -->
+                        <!--         </h4> -->
+                        <!--     </div> -->
+                        <!--     <div class="timeline&#45;panel wow fadeInLeft animated"> -->
+                        <!--         <div class="timeline&#45;heading"> -->
+                        <!--             <h4>L3 Communications</h4> -->
+                        <!--             <h4 class="subheading">Purchasing/Data Entry</h4> -->
+                        <!--         </div> -->
+                        <!--         <div class="timeline&#45;body"> -->
+                        <!--             <p class="text&#45;muted">I need to tell ya some shizz about what I did at L3.</p> -->
+                        <!--         </div> -->
+                        <!--     </div> -->
+                        <!-- </li> -->
+                        <!-- exprience End -->
+
+                        <!-- education -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image wow zoomIn animated">
+                                <span class="ico">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </span>
+                            </div>
+                            <div class="timeline-panel wow fadeInRight animated">
+                                <div class="timeline-heading">
+                                    <h2 class="subheading">Education</h2>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Education is the most powerful weapon which you can use to change the world. - Nelson Mandela</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image wow zoomIn animated">
+                                <h4>Aug 2009
+                                    <br>-
+                                    <br>May 2012
+                                </h4>
+                            </div>
+                            <div class="timeline-panel wow fadeInLeft animated">
+                                <div class="timeline-heading">
+                                    <h4>Oklahoma City Community College</h4>
+                                    <h4 class="subheading">A.A.S. Computer Science</h4>
+                                </div>
+                                <div class="timeline-body">
+                                  <p class="text-muted">Certificate of Mastery in Computer Network Support</br>Certficate of Mastery in Computer Systems Support</br>CompTIA Network+ Certification</br>Phi Theta kappa International Honor Society</p>
+                                </div>
+                            </div>
+                        </li>
+                 
+                        <!-- education End -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Resume Section End -->
+
+    <!-- <!&#45;&#45; Clients Aside &#45;&#45;> -->
+    <!-- <aside class="clients bg&#45;clients"> -->
+    <!--     <div class="container"> -->
+    <!--         <div class="row"> -->
+    <!--             <div class="col&#45;md&#45;3 col&#45;sm&#45;6 wow flipInY animated"> -->
+    <!--                 <a href="#"> -->
+    <!--                     <img src="img/logos/c&#45;liogo1.png" class="img&#45;responsive img&#45;centered" alt=""> -->
+    <!--                 </a> -->
+    <!--             </div> -->
+    <!--             <div class="col&#45;md&#45;3 col&#45;sm&#45;6 wow flipInY animated"> -->
+    <!--                 <a href="#"> -->
+    <!--                     <img src="img/logos/c&#45;liogo2.png" class="img&#45;responsive img&#45;centered" alt=""> -->
+    <!--                 </a> -->
+    <!--             </div> -->
+    <!--             <div class="col&#45;md&#45;3 col&#45;sm&#45;6 wow flipInY animated"> -->
+    <!--                 <a href="#"> -->
+    <!--                     <img src="img/logos/c&#45;liogo3.png" class="img&#45;responsive img&#45;centered" alt=""> -->
+    <!--                 </a> -->
+    <!--             </div> -->
+    <!--             <div class="col&#45;md&#45;3 col&#45;sm&#45;6 wow flipInY animated"> -->
+    <!--                 <a href="#"> -->
+    <!--                     <img src="img/logos/c&#45;liogo4.png" class="img&#45;responsive img&#45;centered" alt=""> -->
+    <!--                 </a> -->
+    <!--             </div> -->
+    <!--         </div> -->
+    <!--     </div> -->
+    <!-- </aside> -->
+    <!-- <!&#45;&#45; Clients Aside End &#45;&#45;> -->
+
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeInDown">
+                    <h2 class="section-heading">Get In Touch</h2>
+                    <h3 class="section-subheading text-dark">Question everything.  Learn Something.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-7 wow fadeInUp animated">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-x3 wow bounceIn animated">Send Message</button>
+                            </div>
+                            <!-- Contact details -->
+                            <div class="col-md-5">
+                                <div class="form-text wow fadeIn animated">
+                                    <h4>Contact details</h4>
+                                    <p></p>
+                                    <p class="wow fadeInUp animated"> <i class="fa fa-map-marker fa-lg"></i> Del City, Oklahoma USA</p>
+                                    <p class="wow fadeInUp animated"> <i class="fa fa-mobile fa-lg"></i> (405) 669-1587</p>
+                                    <p class="wow fadeInUp animated"> <i class="fa fa-envelope-o"></i> amber@ocularcandy.biz</p>
+                                    <p class="wow fadeInUp animated"> <i class="fa fa-link"></i> www.ocularcandy.biz</p>
+                                </div>
+                            </div>
+                            <!-- Contact details End -->
+                            <div class="clearfix"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section End -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Ocular Candy 2015</span>
+                </div>
+                <!-- Social Icons -->
+                <div class="col-md-8">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="http://www.twitter.com/ocularcandy"><i class="fa fa-twitter wow bounceIn animated"></i></a></li>
+                        <li><a href="http://www.facebook.com/ocularcandyproductions"><i class="fa fa-facebook wow bounceIn animated"></i></a></li>
+                        <li><a href="http://www.linkedin.com/in/ocularcandy"><i class="fa fa-linkedin wow bounceIn animated"></i></a></li>
+                        <li><a href="http://www.ocularcandy.shutterfly.com"><i class="fa fa-camera bounceIn animated"></i></a></li>
+                    </ul>
+                </div>
+                <!-- Social Icons End -->
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Black</br>Butterfly</h2>
+                            <p class="item-intro text-muted">Website and Online Store</p>
+                            <img class="img-responsive img-centered" src="img/mdBBP.jpg" alt="">
+                            <p>Black Butterfly Productions is a tattoo shop/art gallery located in Midwest City, Oklahoma.  The owner approached me and asked that I design a clean, responsive website to display a small selection from his portfolio. He also asked for an online store to sell his merchandise.</p>
+                            <p>
+                            <ul class="list-inline">
+                                <li>Date: July 2011 - Present</li>
+                                <li>Client: <a href="http://www.blackbutterfly.biz">Black Butterfly Productions</a></li>
+                                <li>Category: Website Design</li>
+                            </ul>
+                            <button type="button" class="btn btn-x1" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 1 End -->
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                          <h2>Patriot</br>Pistol</br>Training</h2>
+                            <p class="item-intro text-muted">Website with Scheduling</p>
+                            <img class="img-responsive img-centered" src="img/mdPPT.jpg" alt="">
+                            <p>Patriot Pistol Training approached me and asked that I build a website to present class information and scheduling opportunities.</p>
+                            <p>
+                            <ul class="list-inline">
+                                <li>Date: April 2015 to Present</li>
+                                <li>Client: <a href="http://www.patriotpistoltraining.com">Patriot Pistol Training</a></li>
+                                <li>Category: Web Design</li>
+                            </ul>
+                            <button type="button" class="btn btn-x1" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 2 End -->
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Ocular Candy</h2>
+                            <p class="item-intro text-muted">Digital Photography</p>
+                            <img class="img-responsive img-centered" src="img/mdSfly.jpg" alt="">
+                            <p>Capturing life through the camera lens.</p>
+                            <p>
+                            <ul class="list-inline">
+                                <li>Date: March 2005 - Present</li>
+                                <li>Portfolio: <a href="http://www.ocularcandy.shutterfly.com">Shutterfly Portfolio</a></li>
+                                <li>Category: Photography</li>
+                            </ul>
+                            <button type="button" class="btn btn-x1" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 3 End -->
+
+    <!-- <!&#45;&#45; Portfolio Modal 4 &#45;&#45;> -->
+    <!-- <div class="portfolio&#45;modal modal fade" id="portfolioModal4" tabindex="&#45;1" role="dialog" aria&#45;hidden="true"> -->
+    <!--     <div class="modal&#45;content"> -->
+    <!--         <div class="close&#45;modal" data&#45;dismiss="modal"> -->
+    <!--             <div class="lr"> -->
+    <!--                 <div class="rl"> -->
+    <!--                 </div> -->
+    <!--             </div> -->
+    <!--         </div> -->
+    <!--         <div class="container"> -->
+    <!--             <div class="row"> -->
+    <!--                 <div class="col&#45;lg&#45;8 col&#45;lg&#45;offset&#45;2"> -->
+    <!--                     <div class="modal&#45;body"> -->
+    <!--                         <!&#45;&#45; Project Details Go Here &#45;&#45;> -->
+    <!--                         <h2>Project Name</h2> -->
+    <!--                         <p class="item&#45;intro text&#45;muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+    <!--                         <img class="img&#45;responsive img&#45;centered" src="http://placehold.it/600x450.jpg" alt=""> -->
+    <!--                         <p>Lorem ipsum dolor sit amet, <strong>consectetuer</strong> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p> -->
+    <!--                         <p> -->
+    <!--                         <ul class="list&#45;inline"> -->
+    <!--                             <li>Date: <a href="#">July 2014</a></li> -->
+    <!--                             <li>Client: <a href="#">Lorem Ipsum</a></li> -->
+    <!--                             <li>Category: <a href="#">Graphic Design</a></li> -->
+    <!--                         </ul> -->
+    <!--                         <button type="button" class="btn btn&#45;x1" data&#45;dismiss="modal"><i class="fa fa&#45;times"></i> Close Project</button> -->
+    <!--                     </div> -->
+    <!--                 </div> -->
+    <!--             </div> -->
+    <!--         </div> -->
+    <!--     </div> -->
+    <!-- </div> -->
+    <!-- <!&#45;&#45; Portfolio Modal 4 End &#45;&#45;> -->
+    <!--  -->
+    <!-- <!&#45;&#45; Portfolio Modal 5 &#45;&#45;> -->
+    <!-- <div class="portfolio&#45;modal modal fade" id="portfolioModal5" tabindex="&#45;1" role="dialog" aria&#45;hidden="true"> -->
+    <!--     <div class="modal&#45;content"> -->
+    <!--         <div class="close&#45;modal" data&#45;dismiss="modal"> -->
+    <!--             <div class="lr"> -->
+    <!--                 <div class="rl"> -->
+    <!--                 </div> -->
+    <!--             </div> -->
+    <!--         </div> -->
+    <!--         <div class="container"> -->
+    <!--             <div class="row"> -->
+    <!--                 <div class="col&#45;lg&#45;8 col&#45;lg&#45;offset&#45;2"> -->
+    <!--                     <div class="modal&#45;body"> -->
+    <!--                         <!&#45;&#45; Project Details Go Here &#45;&#45;> -->
+    <!--                         <h2>Project Name</h2> -->
+    <!--                         <p class="item&#45;intro text&#45;muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+    <!--                         <img class="img&#45;responsive img&#45;centered" src="http://placehold.it/600x450.jpg" alt=""> -->
+    <!--                         <p>Lorem ipsum dolor sit amet, <strong>consectetuer</strong> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p> -->
+    <!--                         <p> -->
+    <!--                         <ul class="list&#45;inline"> -->
+    <!--                             <li>Date: <a href="#">July 2014</a></li> -->
+    <!--                             <li>Client: <a href="#">Lorem Ipsum</a></li> -->
+    <!--                             <li>Category: <a href="#">Web Development</a></li> -->
+    <!--                         </ul> -->
+    <!--                         <button type="button" class="btn btn&#45;x1" data&#45;dismiss="modal"><i class="fa fa&#45;times"></i> Close Project</button> -->
+    <!--                     </div> -->
+    <!--                 </div> -->
+    <!--             </div> -->
+    <!--         </div> -->
+    <!--     </div> -->
+    <!-- </div> -->
+    <!-- <!&#45;&#45; Portfolio Modal 5 End &#45;&#45;> -->
+    <!--  -->
+    <!-- <!&#45;&#45; Portfolio Modal 6 &#45;&#45;> -->
+    <!-- <div class="portfolio&#45;modal modal fade" id="portfolioModal6" tabindex="&#45;1" role="dialog" aria&#45;hidden="true"> -->
+    <!--     <div class="modal&#45;content"> -->
+    <!--         <div class="close&#45;modal" data&#45;dismiss="modal"> -->
+    <!--             <div class="lr"> -->
+    <!--                 <div class="rl"> -->
+    <!--                 </div> -->
+    <!--             </div> -->
+    <!--         </div> -->
+    <!--         <div class="container"> -->
+    <!--             <div class="row"> -->
+    <!--                 <div class="col&#45;lg&#45;8 col&#45;lg&#45;offset&#45;2"> -->
+    <!--                     <div class="modal&#45;body"> -->
+    <!--                         <!&#45;&#45; Project Details Go Here &#45;&#45;> -->
+    <!--                         <h2>Project Name</h2> -->
+    <!--                         <p class="item&#45;intro text&#45;muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+    <!--                         <img class="img&#45;responsive img&#45;centered" src="http://placehold.it/600x450.jpg" alt=""> -->
+    <!--                         <p>Lorem ipsum dolor sit amet, <strong>consectetuer</strong> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p> -->
+    <!--                         <p> -->
+    <!--                         <ul class="list&#45;inline"> -->
+    <!--                             <li>Date: <a href="#">May 2014</a></li> -->
+    <!--                             <li>Client: <a href="#">Lorem Ipsum</a></li> -->
+    <!--                             <li>Category: <a href="#">Graphic Design</a></li> -->
+    <!--                         </ul> -->
+    <!--                         <button type="button" class="btn btn&#45;x1" data&#45;dismiss="modal"><i class="fa fa&#45;times"></i> Close Project</button> -->
+    <!--                     </div> -->
+    <!--                 </div> -->
+    <!--             </div> -->
+    <!--         </div> -->
+    <!--     </div> -->
+    <!-- </div> -->
+    <!-- <!&#45;&#45; Portfolio Modal 6 End &#45;&#45;> -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery-1.11.1.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+
+</body>
+
 </html>
-
-
-
-
-  
